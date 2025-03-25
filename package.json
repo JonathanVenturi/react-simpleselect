@@ -6,7 +6,12 @@
   "author": "Jonathan Venturi",
   "type": "module",
   "main": "dist/react-simpleselect.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "@JonathanVenturi:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "vite build",
     "lint": "eslint .",
