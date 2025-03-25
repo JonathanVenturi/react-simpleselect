@@ -1,5 +1,5 @@
 {
-  "name": "react-simpleselect",
+  "name": "@jonathanventuri/react-simpleselect",
   "version": "1.0.0",
   "description": "A simple React component that allows to easily create select dropdowns",
   "license": "MIT",
@@ -9,9 +9,7 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "@JonathanVenturi:registry": "https://npm.pkg.github.com"
-  },
+  "repository": "https://github.com/jonathanventuri/react-simpleselect.git",
   "scripts": {
     "build": "vite build",
     "lint": "eslint .",
