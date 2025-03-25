@@ -9,13 +9,21 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 export default defineConfig({
   plugins: [react()],
   build: {
+    copyPublicDir: false,
     lib: {
       entry: resolve(__dirname, 'lib/index.js'),
       name: 'React Simple Select',
       fileName: 'react-simpleselect'
     },
     rollupOptions: {
-      external: ['react', 'react-dom', 'react/jsx-runtime']
+      external: ['react', 'react-dom', 'react/jsx-runtime'],
+      output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+          'react/jsx-runtime': 'jsxRuntime'
+        }
+      }
     }
   }
 })
