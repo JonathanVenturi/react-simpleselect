@@ -1,6 +1,6 @@
 {
   "name": "@jonathanventuri/react-simpleselect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple React component that allows to easily create select dropdowns",
   "license": "MIT",
   "author": "Jonathan Venturi",
