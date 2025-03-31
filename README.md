@@ -2,19 +2,32 @@
 
 A simple React component that allows to easily create select dropdowns
 
+## Requirements
+
+### Usage requirements
+
+Node.js > v23.10
+npm > v11.2
+React > v19.0
+
+### Development requirements
+
+Vite > v6.2
+StoryBook > 8.6
+
 ## Installation
 
-This package is not available through the npm registry yet. In order to install it you will first need to add the following line to your ```.npmrc file```
+This package is not available through the npm registry yet. In order to install it you will first need to add the following line to your `.npmrc file`
 
-```@jonathanventuri:registry=https://npm.pkg.github.com```
+`@jonathanventuri:registry=https://npm.pkg.github.com`
 
 You will then be able to install it with npm with the following command :
 
-```npm install @jonathanventuri/react-simpleselect```
+`npm install @jonathanventuri/react-simpleselect`
 
 ## Usage
 
-Here is a basic example on how to use this component 
+Here is a basic example on how to use this component
 
 ```js
 import { SimpleSelect } from '@jonathanventuri/react-simpleselect'
@@ -37,8 +50,8 @@ function MyComponent(} {
 
 ## Component Props
 
-```as: node``` The underlying HTML element or React component to use to render the dropdown. Default to ```select```
+`as: node` The underlying HTML element or React component to use to render the dropdown. Default to `select`
 
-```placeholder: string``` Placeholder text that is displayed as a first (disabled) option in the dropdown
+`placeholder: string` Placeholder text that is displayed as a first (disabled) option in the dropdown
 
-```options: array of {value, label} objects``` The list of options to be displayed by the select dropdown, defined as an array of objects with ```value``` and ```label``` properties.
+`options: array of {value, label} objects` The list of options to be displayed by the select dropdown, defined as an array of objects with `value` and `label` properties.
