@@ -7,12 +7,15 @@ A simple React component that allows to easily create select dropdowns
 ### Usage requirements
 
 Node.js > v23.10
+
 npm > v11.2
+
 React > v19.0
 
 ### Development requirements
 
 Vite > v6.2
+
 StoryBook > 8.6
 
 ## Installation
